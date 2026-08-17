@@ -44,7 +44,14 @@ func check_separation(_delta):
 		player_reference.nearest_enemy = self
 
 func knockback_update(delta: float):
-	velocity = (player_reference.position - position).normalized() * speed
+	var direction = (player_reference.position - position).normalized()
+	velocity = direction * speed
+	
+	if direction.x > 0:
+		$AnimatedSprite2D.flip_h = true
+	elif direction.x < 0:
+		$AnimatedSprite2D.flip_h = false
+		
 	knockback = knockback.move_toward(Vector2.ZERO, 1)
 	velocity += knockback
 	

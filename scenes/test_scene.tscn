@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://ca8on25aslxcs" path="res://assets/Tiles/TopDownFantasy-Forest/Tiles/Tileset.png" id="1_7ddre"]
 [ext_resource type="PackedScene" uid="uid://ufqaxhrud7gc" path="res://scenes/spawner.tscn" id="1_ia1lp"]
 [ext_resource type="PackedScene" uid="uid://dn37hjq73txbc" path="res://scenes/player.tscn" id="1_uhqqe"]
+[ext_resource type="Texture2D" uid="uid://cwt3d74fle55c" path="res://assets/Tiles/land.png" id="2_3qnke"]
 [ext_resource type="Texture2D" uid="uid://cmu0kwlcv1p27" path="res://assets/Tiles/TopDownFantasy-Forest/Decorations/Decorations.png" id="2_qjeyg"]
 [ext_resource type="SpriteFrames" uid="uid://2mllappenl8b" path="res://assets/Enemies/batfly.tres" id="5_qjeyg"]
 
@@ -11,8 +12,28 @@ texture = ExtResource("1_7ddre")
 1:1/0 = 0
 5:1/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rnaij"]
+texture = ExtResource("2_3qnke")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
 [sub_resource type="TileSet" id="TileSet_t655h"]
 sources/0 = SubResource("TileSetAtlasSource_3qnke")
+sources/1 = SubResource("TileSetAtlasSource_rnaij")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wtsjf"]
 texture = ExtResource("2_qjeyg")

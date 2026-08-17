@@ -18,8 +18,7 @@ shape = SubResource("CircleShape2D_3vyb7")
 scale = Vector2(1.5, 1.5)
 sprite_frames = ExtResource("3_4ra3w")
 autoplay = "default"
-frame = 1
-frame_progress = 0.37707797
+frame_progress = 0.09953578
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="." unique_id=1960852143]
 visible = false
