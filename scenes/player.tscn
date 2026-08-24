@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://c3arrpa4jy0rd" path="res://scenes/player.gd" id="1_4flbx"]
 [ext_resource type="PackedScene" uid="uid://ep354j4vxu4u" path="res://scenes/slot.tscn" id="2_qhqgy"]
 [ext_resource type="Resource" uid="uid://dhk2f76ska4k8" path="res://resources/Weapons/MagicWand.tres" id="3_dqkch"]
+[ext_resource type="Resource" uid="uid://bdk2b6sjm0emx" path="res://resources/Weapons/Asteroid.tres" id="4_a8ls1"]
 [ext_resource type="PackedScene" uid="uid://dshxipaifm5pk" path="res://scenes/passive_slot.tscn" id="4_smehm"]
 [ext_resource type="Texture2D" uid="uid://cauxosibavoyh" path="res://assets/ProgressBar/under.png" id="4_tuyoq"]
 [ext_resource type="Texture2D" uid="uid://coqg7kvujfbs" path="res://assets/ProgressBar/progress.png" id="5_fjrip"]
@@ -378,6 +379,7 @@ item = ExtResource("3_dqkch")
 
 [node name="Slot2" parent="UI/Weapons" unique_id=616441908 instance=ExtResource("2_qhqgy")]
 layout_mode = 2
+item = ExtResource("4_a8ls1")
 
 [node name="Slot3" parent="UI/Weapons" unique_id=245461406 instance=ExtResource("2_qhqgy")]
 layout_mode = 2

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PickupMagent" format=3 uid="uid://b6gm8pig6gm0g"]
+
+[ext_resource type="Texture2D" uid="uid://dc4rqp3j7fwpr" path="res://assets/Destructibles/vacuum.png" id="1_2jeke"]
+[ext_resource type="Script" uid="uid://ct35k5br001wc" path="res://scenes/Vaccum.gd" id="2_ja5oq"]
+
+[resource]
+script = ExtResource("2_ja5oq")
+title = "Vacuum"
+icon = ExtResource("1_2jeke")
+description = "Gets all the gems, like CoD :3"
+metadata/_custom_type_script = "uid://ct35k5br001wc"

@@ -7,16 +7,15 @@
 [ext_resource type="Texture2D" uid="uid://oqr0x22us6xl" path="res://assets/Tiles/wand.jpg" id="3_jhf16"]
 [ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/Upgrade.gd" id="4_jhf16"]
 [ext_resource type="Script" uid="uid://40oo6dcvc7t1" path="res://scenes/ProjectileUpgrade.gd" id="5_75lpt"]
+[ext_resource type="AudioStream" uid="uid://br8je4g4fajbo" path="res://assets/Music/shoot.mp3" id="5_s71lc"]
 
 [sub_resource type="Resource" id="Resource_smehm"]
 script = ExtResource("5_75lpt")
-damage = 1.0
 description = "+1 damage"
 metadata/_custom_type_script = "uid://40oo6dcvc7t1"
 
 [sub_resource type="Resource" id="Resource_ur7pv"]
 script = ExtResource("5_75lpt")
-damage = 1.0
 description = "+1 damage"
 metadata/_custom_type_script = "uid://40oo6dcvc7t1"
 
@@ -46,6 +45,8 @@ speed = 400.0
 upgrades = Array[ExtResource("4_jhf16")]([SubResource("Resource_smehm"), SubResource("Resource_ur7pv"), SubResource("Resource_y4r1p"), SubResource("Resource_d2wvv"), SubResource("Resource_3v2ag")])
 item_needed = ExtResource("2_s71lc")
 evolution = ExtResource("1_3j8ci")
+sound = ExtResource("5_s71lc")
 title = "Magic Wand"
+icon = ExtResource("3_jhf16")
 texture = ExtResource("3_jhf16")
 metadata/_custom_type_script = "uid://cd5o2t5cue83x"

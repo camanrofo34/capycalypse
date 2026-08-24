@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Circular" format=3 uid="uid://bq5fxao141cq4"]
+
+[ext_resource type="Texture2D" uid="uid://bp5x5r8rjob3x" path="res://assets/Tiles/bigbook.png" id="1_xcask"]
+[ext_resource type="PackedScene" uid="uid://c8foq2seou0k8" path="res://scenes/projectile.tscn" id="2_d23b6"]
+[ext_resource type="Script" uid="uid://3i7fiy32wtml" path="res://scenes/CircularWeapon.gd" id="3_o5tcx"]
+[ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/Upgrade.gd" id="4_yowg2"]
+
+[resource]
+script = ExtResource("3_o5tcx")
+angular_speed = 270
+radius = 75
+amount = 7
+damage = 10.0
+title = "Huge Asteroid"
+icon = ExtResource("1_xcask")
+texture = ExtResource("1_xcask")
+metadata/_custom_type_script = "uid://3i7fiy32wtml"

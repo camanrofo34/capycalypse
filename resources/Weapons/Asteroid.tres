@@ -1,0 +1,53 @@
+[gd_resource type="Resource" script_class="Circular" format=3 uid="uid://bdk2b6sjm0emx"]
+
+[ext_resource type="Resource" uid="uid://bq5fxao141cq4" path="res://resources/Weapons/Huge_Asteroid.tres" id="1_3xwug"]
+[ext_resource type="PackedScene" uid="uid://c8foq2seou0k8" path="res://scenes/projectile.tscn" id="1_40gbq"]
+[ext_resource type="Script" uid="uid://3i7fiy32wtml" path="res://scenes/CircularWeapon.gd" id="2_5v0xx"]
+[ext_resource type="Texture2D" uid="uid://b4dx7shguhw7f" path="res://assets/Tiles/book.png" id="3_3xwug"]
+[ext_resource type="Resource" uid="uid://c0ugp55ug2tjn" path="res://resources/Passives/Recovery.tres" id="3_rgxfb"]
+[ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/Upgrade.gd" id="4_rgxfb"]
+[ext_resource type="Script" uid="uid://b083hixxd3sai" path="res://scenes/CircularUpgrade.gd" id="5_5v0xx"]
+
+[sub_resource type="Resource" id="Resource_ejlcw"]
+script = ExtResource("5_5v0xx")
+amount = 1
+description = "+1 Projectile"
+metadata/_custom_type_script = "uid://b083hixxd3sai"
+
+[sub_resource type="Resource" id="Resource_anvhu"]
+script = ExtResource("5_5v0xx")
+angular_speed = 90.0
+description = "+90 Speed"
+metadata/_custom_type_script = "uid://b083hixxd3sai"
+
+[sub_resource type="Resource" id="Resource_3xwug"]
+script = ExtResource("5_5v0xx")
+amount = 2
+description = "+2 Projectile"
+metadata/_custom_type_script = "uid://b083hixxd3sai"
+
+[sub_resource type="Resource" id="Resource_rgxfb"]
+script = ExtResource("5_5v0xx")
+damage = 3.0
+description = "+3 damage"
+metadata/_custom_type_script = "uid://b083hixxd3sai"
+
+[sub_resource type="Resource" id="Resource_ye6g7"]
+script = ExtResource("5_5v0xx")
+amount = 1
+description = "+1 projectile"
+metadata/_custom_type_script = "uid://b083hixxd3sai"
+
+[resource]
+script = ExtResource("2_5v0xx")
+angular_speed = 90
+radius = 75
+damage = 2.0
+cooldown = 2.0
+upgrades = Array[ExtResource("4_rgxfb")]([SubResource("Resource_ejlcw"), SubResource("Resource_anvhu"), SubResource("Resource_3xwug"), SubResource("Resource_rgxfb"), SubResource("Resource_ye6g7")])
+item_needed = ExtResource("3_rgxfb")
+evolution = ExtResource("1_3xwug")
+title = "Asteroid"
+icon = ExtResource("3_3xwug")
+texture = ExtResource("3_3xwug")
+metadata/_custom_type_script = "uid://3i7fiy32wtml"

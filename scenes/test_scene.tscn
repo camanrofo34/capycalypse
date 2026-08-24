@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cwt3d74fle55c" path="res://assets/Tiles/land.png" id="2_3qnke"]
 [ext_resource type="Texture2D" uid="uid://cmu0kwlcv1p27" path="res://assets/Tiles/TopDownFantasy-Forest/Decorations/Decorations.png" id="2_qjeyg"]
 [ext_resource type="SpriteFrames" uid="uid://2mllappenl8b" path="res://assets/Enemies/batfly.tres" id="5_qjeyg"]
+[ext_resource type="PackedScene" uid="uid://17mvr2ryyshs" path="res://scenes/destructible.tscn" id="7_wtsjf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3qnke"]
 texture = ExtResource("1_7ddre")
@@ -78,3 +79,10 @@ visible = false
 sprite_frames = ExtResource("5_qjeyg")
 frame = 2
 frame_progress = 0.9580362
+
+[node name="DirectionalLight2D" type="DirectionalLight2D" parent="." unique_id=1005319958]
+color = Color(0.4308388, 0.41961965, 0.38931432, 1)
+blend_mode = 2
+
+[node name="Destructible" parent="." unique_id=1251782648 instance=ExtResource("7_wtsjf")]
+position = Vector2(873, 265)

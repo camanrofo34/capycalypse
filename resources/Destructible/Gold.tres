@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Gold" format=3 uid="uid://2en3osvmxs7f"]
+
+[ext_resource type="Texture2D" uid="uid://byq456rt7eoer" path="res://assets/Gems/money.png" id="1_yksgn"]
+[ext_resource type="Script" uid="uid://b56aq57sc3h4v" path="res://scenes/Gold.gd" id="2_h1io3"]
+
+[resource]
+script = ExtResource("2_h1io3")
+icon = ExtResource("1_yksgn")
+description = "+5 gold"
+metadata/_custom_type_script = "uid://b56aq57sc3h4v"

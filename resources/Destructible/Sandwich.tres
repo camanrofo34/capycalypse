@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Health" format=3 uid="uid://bnlyi4658cfts"]
+
+[ext_resource type="Texture2D" uid="uid://coqkme8phknxn" path="res://assets/Destructibles/Sandwich_de_la_Muerte.png" id="1_4jok8"]
+[ext_resource type="Script" uid="uid://7jv0prv6104" path="res://scenes/Health.gd" id="2_fitfs"]
+
+[resource]
+script = ExtResource("2_fitfs")
+title = "Shanwich"
+icon = ExtResource("1_4jok8")
+description = "+20 Health"
+metadata/_custom_type_script = "uid://7jv0prv6104"

@@ -11,5 +11,6 @@ damage = 10.0
 cooldown = 0.1
 speed = 500.0
 title = "Holy Wand 2"
+icon = ExtResource("3_ve4ap")
 texture = ExtResource("3_ve4ap")
 metadata/_custom_type_script = "uid://cd5o2t5cue83x"

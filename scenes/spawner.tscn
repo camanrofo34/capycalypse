@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cwlpyn72ggub7" path="res://scenes/spawner.gd" id="1_ttk4a"]
 [ext_resource type="PackedScene" uid="uid://3lpvnhqbxhib" path="res://scenes/enemy.tscn" id="2_mcln3"]
+[ext_resource type="PackedScene" uid="uid://17mvr2ryyshs" path="res://scenes/destructible.tscn" id="3_e3f8v"]
 [ext_resource type="Script" uid="uid://dwasu3l64yd1c" path="res://scenes/EnemyType.gd" id="3_p5s3f"]
 [ext_resource type="Resource" uid="uid://xwxlh0axe0cp" path="res://resources/Enemies/BattleRabbit.tres" id="4_e3f8v"]
 [ext_resource type="Resource" uid="uid://clx2v30r0n6fh" path="res://resources/Enemies/Demonium.tres" id="5_3rx28"]
@@ -12,6 +13,7 @@
 [node name="Spawner" type="Node2D" unique_id=1830302588]
 script = ExtResource("1_ttk4a")
 enemy = ExtResource("2_mcln3")
+destructible = ExtResource("3_e3f8v")
 enemy_types = Array[ExtResource("3_p5s3f")]([ExtResource("4_e3f8v"), ExtResource("5_3rx28"), ExtResource("6_m1kbb"), ExtResource("7_q0apd"), ExtResource("8_07n7x")])
 
 [node name="UI" type="CanvasLayer" parent="." unique_id=436521540]
@@ -47,6 +49,11 @@ autostart = true
 wait_time = 9.0
 autostart = true
 
+[node name="Desctructible" type="Timer" parent="." unique_id=772637437]
+wait_time = 9.0
+autostart = true
+
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
 [connection signal="timeout" from="Pattern" to="." method="_on_pattern_timeout"]
 [connection signal="timeout" from="Elite" to="." method="_on_elite_timeout"]
+[connection signal="timeout" from="Desctructible" to="." method="_on_desctructible_timeout"]
