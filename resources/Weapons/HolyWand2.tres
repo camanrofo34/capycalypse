@@ -1,8 +1,9 @@
 [gd_resource type="Resource" script_class="SingleShot" format=3 uid="uid://y6b070vyhf0j"]
 
+[ext_resource type="Texture2D" uid="uid://d3uugy4yaoist" path="res://assets/Tiles/libro de ventisca helada.png" id="1_bxs10"]
 [ext_resource type="PackedScene" uid="uid://c8foq2seou0k8" path="res://scenes/projectile.tscn" id="1_h2b4q"]
 [ext_resource type="Script" uid="uid://cd5o2t5cue83x" path="res://SingleShot.gd" id="2_bxs10"]
-[ext_resource type="Texture2D" uid="uid://cealon80d7cgl" path="res://assets/Tiles/mega-vara.png" id="3_ve4ap"]
+[ext_resource type="Texture2D" uid="uid://n6klm4fsvihg" path="res://assets/Tiles/Fuego_fatuors.png" id="4_bxs10"]
 [ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/Upgrade.gd" id="4_wwtei"]
 
 [resource]
@@ -11,6 +12,6 @@ damage = 10.0
 cooldown = 0.1
 speed = 500.0
 title = "Holy Wand 2"
-icon = ExtResource("3_ve4ap")
-texture = ExtResource("3_ve4ap")
+icon = ExtResource("1_bxs10")
+texture = ExtResource("4_bxs10")
 metadata/_custom_type_script = "uid://cd5o2t5cue83x"
