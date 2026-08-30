@@ -3,11 +3,12 @@
 [ext_resource type="Resource" uid="uid://y6b070vyhf0j" path="res://resources/Weapons/HolyWand2.tres" id="1_3j8ci"]
 [ext_resource type="PackedScene" uid="uid://c8foq2seou0k8" path="res://scenes/projectile.tscn" id="1_su43j"]
 [ext_resource type="Script" uid="uid://cd5o2t5cue83x" path="res://SingleShot.gd" id="2_77jyr"]
+[ext_resource type="Texture2D" uid="uid://stkcmup8eq01" path="res://assets/Tiles/Báculo.png" id="2_c7sf3"]
 [ext_resource type="Resource" uid="uid://b7omfldjd46tv" path="res://resources/Passives/Magnet.tres" id="2_s71lc"]
-[ext_resource type="Texture2D" uid="uid://oqr0x22us6xl" path="res://assets/Tiles/wand.jpg" id="3_jhf16"]
 [ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/Upgrade.gd" id="4_jhf16"]
 [ext_resource type="Script" uid="uid://40oo6dcvc7t1" path="res://scenes/ProjectileUpgrade.gd" id="5_75lpt"]
 [ext_resource type="AudioStream" uid="uid://br8je4g4fajbo" path="res://assets/Music/shoot.mp3" id="5_s71lc"]
+[ext_resource type="Texture2D" uid="uid://db6gde2kc0jcc" path="res://assets/Tiles/proyectilrs.png" id="7_c7sf3"]
 
 [sub_resource type="Resource" id="Resource_smehm"]
 script = ExtResource("5_75lpt")
@@ -47,6 +48,6 @@ item_needed = ExtResource("2_s71lc")
 evolution = ExtResource("1_3j8ci")
 sound = ExtResource("5_s71lc")
 title = "Magic Wand"
-icon = ExtResource("3_jhf16")
-texture = ExtResource("3_jhf16")
+icon = ExtResource("2_c7sf3")
+texture = ExtResource("7_c7sf3")
 metadata/_custom_type_script = "uid://cd5o2t5cue83x"
