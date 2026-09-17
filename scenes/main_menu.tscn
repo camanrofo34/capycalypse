@@ -24,40 +24,40 @@
 
 [sub_resource type="Resource" id="Resource_hlccx"]
 script = ExtResource("3_8ln24")
-might = 0.1
+might = 0.08
 metadata/_custom_type_script = "uid://ewdyawjgpy5d"
 
 [sub_resource type="Resource" id="Resource_dkd06"]
 script = ExtResource("2_wu84c")
 name = "Might I"
 texture = ExtResource("4_rtw2f")
-cost = 10
+cost = 120
 stats = SubResource("Resource_hlccx")
 metadata/_custom_type_script = "uid://dpx2inggnb5nb"
 
 [sub_resource type="Resource" id="Resource_4kyw0"]
 script = ExtResource("3_8ln24")
-magnet = 0.2
+might = 0.1
 metadata/_custom_type_script = "uid://ewdyawjgpy5d"
 
 [sub_resource type="Resource" id="Resource_15umn"]
 script = ExtResource("2_wu84c")
 name = "Might II"
 texture = ExtResource("4_rtw2f")
-cost = 100
+cost = 280
 stats = SubResource("Resource_4kyw0")
 metadata/_custom_type_script = "uid://dpx2inggnb5nb"
 
 [sub_resource type="Resource" id="Resource_n14h7"]
 script = ExtResource("3_8ln24")
-might = 0.25
+might = 0.12
 metadata/_custom_type_script = "uid://ewdyawjgpy5d"
 
 [sub_resource type="Resource" id="Resource_srp3q"]
 script = ExtResource("2_wu84c")
 name = "Might III"
 texture = ExtResource("4_rtw2f")
-cost = 1000
+cost = 650
 stats = SubResource("Resource_n14h7")
 metadata/_custom_type_script = "uid://dpx2inggnb5nb"
 
@@ -70,20 +70,20 @@ metadata/_custom_type_script = "uid://ewdyawjgpy5d"
 script = ExtResource("2_wu84c")
 name = "Armor I"
 texture = ExtResource("6_tbmy8")
-cost = 10
+cost = 100
 stats = SubResource("Resource_tbmy8")
 metadata/_custom_type_script = "uid://dpx2inggnb5nb"
 
 [sub_resource type="Resource" id="Resource_flqon"]
 script = ExtResource("3_8ln24")
-armor = 3.0
+armor = 1.5
 metadata/_custom_type_script = "uid://ewdyawjgpy5d"
 
 [sub_resource type="Resource" id="Resource_lgwnu"]
 script = ExtResource("2_wu84c")
 name = "Armor II"
 texture = ExtResource("6_tbmy8")
-cost = 100
+cost = 240
 stats = SubResource("Resource_flqon")
 metadata/_custom_type_script = "uid://dpx2inggnb5nb"
 
@@ -96,20 +96,20 @@ metadata/_custom_type_script = "uid://ewdyawjgpy5d"
 script = ExtResource("2_wu84c")
 name = "Armor III"
 texture = ExtResource("6_tbmy8")
-cost = 100
+cost = 600
 stats = SubResource("Resource_5dd4i")
 metadata/_custom_type_script = "uid://dpx2inggnb5nb"
 
 [sub_resource type="Resource" id="Resource_1ajci"]
 script = ExtResource("3_8ln24")
-recovery = 0.1
+recovery = 0.15
 metadata/_custom_type_script = "uid://ewdyawjgpy5d"
 
 [sub_resource type="Resource" id="Resource_rcqid"]
 script = ExtResource("2_wu84c")
 name = "Recovery I"
 texture = ExtResource("7_jk1qb")
-cost = 10
+cost = 90
 stats = SubResource("Resource_1ajci")
 metadata/_custom_type_script = "uid://dpx2inggnb5nb"
 
@@ -122,20 +122,20 @@ metadata/_custom_type_script = "uid://ewdyawjgpy5d"
 script = ExtResource("2_wu84c")
 name = "Recovery II"
 texture = ExtResource("7_jk1qb")
-cost = 100
+cost = 210
 stats = SubResource("Resource_5pajh")
 metadata/_custom_type_script = "uid://dpx2inggnb5nb"
 
 [sub_resource type="Resource" id="Resource_a8gd2"]
 script = ExtResource("3_8ln24")
-recovery = 0.4
+recovery = 0.25
 metadata/_custom_type_script = "uid://ewdyawjgpy5d"
 
 [sub_resource type="Resource" id="Resource_j7ex8"]
 script = ExtResource("2_wu84c")
 name = "Recovery III"
 texture = ExtResource("7_jk1qb")
-cost = 1000
+cost = 520
 stats = SubResource("Resource_a8gd2")
 metadata/_custom_type_script = "uid://dpx2inggnb5nb"
 

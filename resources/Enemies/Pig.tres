@@ -9,7 +9,9 @@
 script = ExtResource("1_k0cfx")
 title = "Pig"
 texture = ExtResource("2_cjm1u")
-health = 6.0
+health = 12.0
 damage = 4.0
+speed = 68.0
+gold = 3
 drops = Array[ExtResource("1_ips41")]([ExtResource("2_fxcpx")])
 metadata/_custom_type_script = "uid://dwasu3l64yd1c"

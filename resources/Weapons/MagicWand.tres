@@ -12,11 +12,13 @@
 
 [sub_resource type="Resource" id="Resource_smehm"]
 script = ExtResource("5_75lpt")
+damage = 1.0
 description = "+1 damage"
 metadata/_custom_type_script = "uid://40oo6dcvc7t1"
 
 [sub_resource type="Resource" id="Resource_ur7pv"]
 script = ExtResource("5_75lpt")
+damage = 1.0
 description = "+1 damage"
 metadata/_custom_type_script = "uid://40oo6dcvc7t1"
 
@@ -40,9 +42,9 @@ metadata/_custom_type_script = "uid://40oo6dcvc7t1"
 
 [resource]
 script = ExtResource("2_77jyr")
-damage = 1.0
-cooldown = 1.0
-speed = 400.0
+damage = 3.0
+cooldown = 0.95
+speed = 460.0
 upgrades = Array[ExtResource("4_jhf16")]([SubResource("Resource_smehm"), SubResource("Resource_ur7pv"), SubResource("Resource_y4r1p"), SubResource("Resource_d2wvv"), SubResource("Resource_3v2ag")])
 item_needed = ExtResource("2_s71lc")
 evolution = ExtResource("1_3j8ci")

@@ -4,9 +4,16 @@ extends CharacterBody2D
 
 var health: float = 100:
 	set(value):
-		health = max(value, 0)
-		%Health.value = value
+		health = clamp(value, 0, max_health)
+		%Health.value = health
 		if health <= 0:
+			SaveData.gold += gold
+			SaveData.set_and_save()
+			var report = find_child("Report")
+			if report:
+				report.game_over = true
+				report.show()
+				report.find_child("Status").text = "Defeat"
 			get_tree().paused = true
 
 var movement_speed: float = 150
@@ -26,7 +33,7 @@ var armor: float = 0:
 		%Armor.text = "A : " + str(value)
 var might: float = 1.5:
 	set(value):
-		recovery = value
+		might = value
 		%Might.text = "M : " + str(value)
 var area: float = 100
 
@@ -70,7 +77,8 @@ var level: int = 1:
 
 func _ready() -> void:
 	Persistence.gain_bonus_stats(self)
-	character = Persistence.character
+	if Persistence.character != null:
+		character = Persistence.character
 	set_base_stats(character.base_stats)
 	%Options.check_item(character.starting_weapon)
 
@@ -159,7 +167,7 @@ func gain_XP(amount):
 
 
 func check_XP():
-	if XP > %XP.max_value:
+	if XP >= %XP.max_value:
 		XP -= %XP.max_value
 		level += 1
 
@@ -189,6 +197,7 @@ func animation(_delta):
 
 func set_base_stats(base_stats: Stats):
 	max_health += base_stats.max_health
+	health = max_health
 	recovery += base_stats.recovery
 	armor += base_stats.armor
 	movement_speed += base_stats.movement_speed

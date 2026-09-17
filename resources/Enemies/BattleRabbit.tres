@@ -11,5 +11,7 @@ title = "BattleRabbit"
 texture = ExtResource("2_44egh")
 health = 3.0
 damage = 1.0
+speed = 62.0
+gold = 1
 drops = Array[ExtResource("1_q4arh")]([ExtResource("2_6ijof")])
 metadata/_custom_type_script = "uid://dwasu3l64yd1c"

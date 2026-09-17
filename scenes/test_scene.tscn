@@ -5,7 +5,6 @@
 [ext_resource type="PackedScene" uid="uid://dn37hjq73txbc" path="res://scenes/player.tscn" id="1_uhqqe"]
 [ext_resource type="Texture2D" uid="uid://cwt3d74fle55c" path="res://assets/Tiles/land.png" id="2_3qnke"]
 [ext_resource type="Texture2D" uid="uid://cmu0kwlcv1p27" path="res://assets/Tiles/TopDownFantasy-Forest/Decorations/Decorations.png" id="2_qjeyg"]
-[ext_resource type="SpriteFrames" uid="uid://2mllappenl8b" path="res://assets/Enemies/batfly.tres" id="5_qjeyg"]
 [ext_resource type="PackedScene" uid="uid://17mvr2ryyshs" path="res://scenes/destructible.tscn" id="7_wtsjf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3qnke"]
@@ -73,12 +72,6 @@ player = NodePath("../Player")
 
 [node name="Player" parent="." unique_id=1570594621 instance=ExtResource("1_uhqqe")]
 position = Vector2(524, 344)
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1660607944]
-visible = false
-sprite_frames = ExtResource("5_qjeyg")
-frame = 2
-frame_progress = 0.9580362
 
 [node name="DirectionalLight2D" type="DirectionalLight2D" parent="." unique_id=1005319958]
 color = Color(0.4308388, 0.41961965, 0.38931432, 1)

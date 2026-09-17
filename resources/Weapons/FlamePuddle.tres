@@ -11,14 +11,14 @@
 
 [sub_resource type="Resource" id="Resource_c8fcr"]
 script = ExtResource("6_vbntr")
-damage = 2.0
-description = "+2 Damage"
+damage = 1.0
+description = "+1 Damage"
 metadata/_custom_type_script = "uid://cdxhvytfkqb0e"
 
 [sub_resource type="Resource" id="Resource_q3m7n"]
 script = ExtResource("6_vbntr")
-amount = 2
-description = "+2 Amount"
+amount = 1
+description = "+1 Amount"
 metadata/_custom_type_script = "uid://cdxhvytfkqb0e"
 
 [sub_resource type="Resource" id="Resource_softn"]
@@ -29,20 +29,22 @@ metadata/_custom_type_script = "uid://cdxhvytfkqb0e"
 
 [sub_resource type="Resource" id="Resource_6q2a6"]
 script = ExtResource("6_vbntr")
-amount = 2
-description = "+2 Amount"
+amount = 1
+description = "+1 Amount"
 metadata/_custom_type_script = "uid://cdxhvytfkqb0e"
 
 [sub_resource type="Resource" id="Resource_byeak"]
 script = ExtResource("6_vbntr")
-damage = 2.0
-description = "+2 Damage"
+damage = 1.0
+description = "+1 Damage"
 metadata/_custom_type_script = "uid://cdxhvytfkqb0e"
 
 [resource]
 script = ExtResource("3_e27if")
-damage = 1.0
-cooldown = 4.0
+amount = 2
+area = 52.0
+damage = 2.0
+cooldown = 3.8
 upgrades = Array[ExtResource("5_tndrk")]([SubResource("Resource_c8fcr"), SubResource("Resource_q3m7n"), SubResource("Resource_softn"), SubResource("Resource_6q2a6"), SubResource("Resource_byeak")])
 item_needed = ExtResource("2_e27if")
 evolution = ExtResource("1_c8emf")

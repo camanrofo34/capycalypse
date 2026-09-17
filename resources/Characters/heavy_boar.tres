@@ -7,15 +7,14 @@
 
 [sub_resource type="Resource" id="Resource_ye6g7"]
 script = ExtResource("1_q7voi")
-max_health = 100.0
-recovery = 1.0
-armor = 1.0
-movement_speed = 1.0
-might = 1.0
-area = 1.0
-magnet = 1.0
-growth = 1.0
-luck = 1.0
+max_health = 130.0
+recovery = 1.2
+armor = 4.0
+movement_speed = -8.0
+might = -0.05
+area = 12.0
+growth = 0.9
+luck = 0.9
 metadata/_custom_type_script = "uid://ewdyawjgpy5d"
 
 [resource]

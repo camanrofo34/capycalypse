@@ -64,6 +64,6 @@ func get_weighted_chance(weight, index):
 	
 	var cumulative = 0
 	for i in range(index + 1):
-		cumulative += weight[1]
+		cumulative += weight[i]
 	
 	return float(cumulative)/sum

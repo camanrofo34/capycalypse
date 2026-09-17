@@ -21,8 +21,7 @@ var elite : bool = false:
 	set(value):
 		elite = value
 		if value:
-			$AnimatedSprite2D.sprite_frames = load("res://assets/Enemies/batboss.tres")
-			$AnimatedSprite2D.play("default")
+			$Sprite2D.material = load("res://shaders/rainbow.tres")
 			scale = Vector2(1.5, 1.5)
 
 var type: Enemy:
@@ -30,6 +29,8 @@ var type: Enemy:
 		type=value
 		damage = value.damage
 		health = value.health
+		speed = value.speed
+		$Sprite2D.texture = value.texture
 
 func _physics_process(delta: float) -> void:
 	check_separation(delta)
@@ -46,11 +47,6 @@ func check_separation(_delta):
 func knockback_update(delta: float):
 	var direction = (player_reference.position - position).normalized()
 	velocity = direction * speed
-	
-	if direction.x > 0:
-		$AnimatedSprite2D.flip_h = true
-	elif direction.x < 0:
-		$AnimatedSprite2D.flip_h = false
 		
 	knockback = knockback.move_toward(Vector2.ZERO, 1)
 	velocity += knockback
@@ -80,6 +76,7 @@ func take_damage(amount):
 	health -= amount * modifier
 
 func drop_item():
+	player_reference.gain_gold(type.gold * (3 if elite else 1))
 	if type.drops.size() == 0:
 		return
 	

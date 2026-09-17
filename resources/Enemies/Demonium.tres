@@ -9,7 +9,9 @@
 script = ExtResource("1_yjxyo")
 title = "Demonium"
 texture = ExtResource("2_3tomj")
-health = 4.0
+health = 5.0
 damage = 2.0
+speed = 72.0
+gold = 1
 drops = Array[ExtResource("1_ee5kk")]([ExtResource("2_14knk")])
 metadata/_custom_type_script = "uid://dwasu3l64yd1c"

@@ -1,8 +1,6 @@
 [gd_scene format=3 uid="uid://3lpvnhqbxhib"]
 
 [ext_resource type="Script" uid="uid://c6s5q4ru8245c" path="res://scenes/enemy.gd" id="1_7k104"]
-[ext_resource type="SpriteFrames" uid="uid://2mllappenl8b" path="res://assets/Enemies/batfly.tres" id="3_4ra3w"]
-[ext_resource type="SpriteFrames" uid="uid://beyevuffjtwim" path="res://assets/Enemies/batboss.tres" id="4_5uy6h"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_3vyb7"]
 
@@ -14,14 +12,4 @@ script = ExtResource("1_7k104")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=383122168]
 shape = SubResource("CircleShape2D_3vyb7")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1545235038]
-scale = Vector2(1.5, 1.5)
-sprite_frames = ExtResource("3_4ra3w")
-autoplay = "default"
-frame_progress = 0.09953578
-
-[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="." unique_id=1960852143]
-visible = false
-sprite_frames = ExtResource("4_5uy6h")
-autoplay = "default"
-frame_progress = 0.7328456
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1269988581]

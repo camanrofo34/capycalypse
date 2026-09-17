@@ -9,7 +9,9 @@
 script = ExtResource("1_nui31")
 title = "Seed"
 texture = ExtResource("2_63cbv")
-health = 10.0
+health = 18.0
 damage = 5.0
+speed = 92.0
+gold = 4
 drops = Array[ExtResource("1_mexfs")]([ExtResource("2_8ktse")])
 metadata/_custom_type_script = "uid://dwasu3l64yd1c"
