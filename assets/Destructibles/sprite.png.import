@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8a7jkmibypk4"
-path="res://.godot/imported/nick-wilde-zootopia.png-02e326a95cff343d2194617126fadb8e.ctex"
+uid="uid://dk1w4e7kfs62k"
+path="res://.godot/imported/sprite.png-6d5a213f5ce08a42ab9998ead35d8249.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Destructibles/nick-wilde-zootopia.png"
-dest_files=["res://.godot/imported/nick-wilde-zootopia.png-02e326a95cff343d2194617126fadb8e.ctex"]
+source_file="res://assets/Destructibles/sprite.png"
+dest_files=["res://.godot/imported/sprite.png-6d5a213f5ce08a42ab9998ead35d8249.ctex"]
 
 [params]
 
