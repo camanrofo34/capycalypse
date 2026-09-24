@@ -85,4 +85,4 @@ func add_gold(index):
 	var gold: Gold = load("res://resources/Destructible/Gold.tres")
 	gold.player_reference = owner
 	rewards.get_child(index).texture = gold.icon
-	gold.upgrade_item()
+	gold.activate()

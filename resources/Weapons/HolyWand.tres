@@ -9,7 +9,7 @@
 [resource]
 script = ExtResource("2_si33m")
 damage = 10.0
-cooldown = 0.1
+cooldown = 0.45
 speed = 500.0
 title = "Holy Wand"
 icon = ExtResource("1_si33m")

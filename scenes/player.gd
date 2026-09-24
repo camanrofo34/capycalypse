@@ -31,7 +31,7 @@ var armor: float = 0:
 	set(value):
 		armor = value
 		%Armor.text = "A : " + str(value)
-var might: float = 1.5:
+var might: float = 1.0:
 	set(value):
 		might = value
 		%Might.text = "M : " + str(value)
@@ -44,7 +44,7 @@ var magnet: float = 0:
 
 var growth: float = 1
 
-var luck: float = 2.0
+var luck: float = 1.0
 
 var nearest_enemy
 var nearest_enemy_distance: float = 150 + area

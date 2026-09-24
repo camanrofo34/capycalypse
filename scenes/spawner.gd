@@ -7,8 +7,8 @@ extends Node2D
 var distance: float = 400
 var can_spawn: bool = true
 @export var max_match_seconds: int = 300
-@export var base_enemy_cap: int = 90
-@export var final_enemy_cap: int = 360
+@export var base_enemy_cap: int = 70
+@export var final_enemy_cap: int = 260
 
 var elapsed_seconds: int = 0
 var victory_reached: bool = false
@@ -96,39 +96,51 @@ func get_spawn_amount() -> int:
 	if elapsed_seconds < 60:
 		return 2
 	if elapsed_seconds < 120:
-		return 3
+		return 2
 	if elapsed_seconds < 180:
-		return 4
+		return 3
 	if elapsed_seconds < 240:
-		return 5
+		return 4
 	if elapsed_seconds < 270:
-		return 6
-	return 8
+		return 5
+	return 7
 
 func get_pattern_amount() -> int:
 	if elapsed_seconds < 60:
-		return 6
+		return 5
 	if elapsed_seconds < 120:
-		return 12
+		return 9
 	if elapsed_seconds < 180:
-		return 18
+		return 14
 	if elapsed_seconds < 240:
-		return 24
-	return 32
+		return 20
+	return 28
 
 func choose_enemy_type() -> Enemy:
-	var index = min(minute, enemy_types.size() - 1)
+	if enemy_types.size() == 0:
+		return null
+	var roll := randf()
+	var index := 0
 	if elapsed_seconds >= 270:
-		index = min(4, enemy_types.size() - 1)
+		index = weighted_enemy_index([0.05, 0.15, 0.25, 0.25, 0.30], roll)
 	elif elapsed_seconds >= 210:
-		index = min(3, enemy_types.size() - 1)
+		index = weighted_enemy_index([0.08, 0.22, 0.30, 0.25, 0.15], roll)
 	elif elapsed_seconds >= 150:
-		index = min(2, enemy_types.size() - 1)
+		index = weighted_enemy_index([0.15, 0.30, 0.35, 0.15, 0.05], roll)
 	elif elapsed_seconds >= 75:
-		index = min(1, enemy_types.size() - 1)
+		index = weighted_enemy_index([0.45, 0.40, 0.15, 0.0, 0.0], roll)
 	else:
-		index = 0
+		index = weighted_enemy_index([0.85, 0.15, 0.0, 0.0, 0.0], roll)
+	index = min(index, enemy_types.size() - 1)
 	return enemy_types[index]
+
+func weighted_enemy_index(weights: Array, roll: float) -> int:
+	var cumulative := 0.0
+	for i in range(weights.size()):
+		cumulative += float(weights[i])
+		if roll <= cumulative:
+			return i
+	return weights.size() - 1
 
 func victory():
 	victory_reached = true

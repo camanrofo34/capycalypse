@@ -42,8 +42,8 @@ metadata/_custom_type_script = "uid://3o5up3hwcjeg"
 [resource]
 script = ExtResource("3_4xcio")
 amount = 2
-damage = 4.0
-cooldown = 3.6
+damage = 7.0
+cooldown = 3.2
 upgrades = Array[ExtResource("5_lge1q")]([SubResource("Resource_fulsm"), SubResource("Resource_4r5pv"), SubResource("Resource_60mlk"), SubResource("Resource_i4ail"), SubResource("Resource_a38lo")])
 item_needed = ExtResource("3_lge1q")
 evolution = ExtResource("1_e1xcb")

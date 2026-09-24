@@ -7,5 +7,6 @@
 script = ExtResource("2_h1io3")
 title = "Gold"
 icon = ExtResource("1_yksgn")
-description = "+5 gold"
+gold = 8
+description = "+8 gold"
 weight = 10.0

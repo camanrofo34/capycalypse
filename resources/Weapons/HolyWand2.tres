@@ -9,8 +9,8 @@
 [resource]
 script = ExtResource("2_bxs10")
 damage = 10.0
-cooldown = 0.1
-speed = 500.0
+cooldown = 0.42
+speed = 650.0
 title = "Holy Wand 2"
 icon = ExtResource("1_bxs10")
 texture = ExtResource("4_bxs10")

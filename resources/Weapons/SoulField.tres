@@ -9,8 +9,8 @@
 script = ExtResource("3_yksi2")
 angular_speed = 30.0
 area = 5.0
-damage = 10.0
-cooldown = 0.5
+damage = 8.0
+cooldown = 0.65
 title = "Soul Field"
 icon = ExtResource("1_sckcs")
 texture = ExtResource("1_sckcs")

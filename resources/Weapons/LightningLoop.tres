@@ -10,7 +10,7 @@
 script = ExtResource("3_6x3m2")
 amount = 7
 damage = 10.0
-cooldown = 2.0
+cooldown = 1.8
 title = "LightningLoop"
 icon = ExtResource("1_7jjkx")
 texture = ExtResource("4_85p5w")
