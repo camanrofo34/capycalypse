@@ -173,7 +173,7 @@ The game features persistent progress between runs handled by two autoloaded sin
 
 ## 📁 Project Folder Organization
 
-The codebase is organized into modular directories (*"carpetas"*):
+The codebase is organized into modular directories:
 
 ```
 capycalypse/
@@ -251,7 +251,7 @@ capycalypse/
 ### Opening the Project in Godot Editor
 1. Clone this repository:
    ```bash
-   git clone https://github.com/CallmeDrift/capycalypse.git
+   git clone https://github.com/camanrofo34/capycalypse.git
    ```
 2. Open the Godot Project Manager.
 3. Click **Import**, navigate to the cloned folder, select `project.godot`, and click **Import & Edit**.
