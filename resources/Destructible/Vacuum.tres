@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="PickupMagent" format=3 uid="uid://b6gm8pig6gm0g"]
 
 [ext_resource type="Texture2D" uid="uid://enyig0k53hhc" path="res://assets/Destructibles/iman.png" id="1_2jeke"]
-[ext_resource type="Script" uid="uid://ct35k5br001wc" path="res://scenes/Vaccum.gd" id="2_ja5oq"]
+[ext_resource type="Script" uid="uid://ct35k5br001wc" path="res://scenes/core/Vaccum.gd" id="2_ja5oq"]
 
 [resource]
 script = ExtResource("2_ja5oq")

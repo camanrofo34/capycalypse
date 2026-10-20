@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="Character" format=3 uid="uid://bf5cougmmx3cr"]
 
-[ext_resource type="Script" uid="uid://ewdyawjgpy5d" path="res://scenes/Stats.gd" id="1_stats"]
-[ext_resource type="Script" uid="uid://dofsgqm1lgkps" path="res://scenes/Character.gd" id="2_char"]
-[ext_resource type="Texture2D" uid="uid://bc1xthvbfos6o" path="res://assets/UI/characters/usagi_icon.png" id="3_icon"]
+[ext_resource type="Script" uid="uid://ewdyawjgpy5d" path="res://scenes/core/Stats.gd" id="1_stats"]
+[ext_resource type="Script" uid="uid://dofsgqm1lgkps" path="res://scenes/core/Character.gd" id="2_char"]
+[ext_resource type="Texture2D" uid="uid://c1dyj5pun5fbt" path="res://assets/Icons/Characters/usagi_icon.png" id="3_icon"]
 [ext_resource type="Texture2D" uid="uid://clgc42nsnscje" path="res://assets/UI/characters/usagi_preview.png" id="4_prev"]
 [ext_resource type="Resource" uid="uid://bdowissa6rffw" path="res://resources/Weapons/ForceField.tres" id="5_weapon"]
 [ext_resource type="Texture2D" uid="uid://c6mh7iaehglo4" path="res://assets/Player/usagi/walk_front.png" id="6_wf"]

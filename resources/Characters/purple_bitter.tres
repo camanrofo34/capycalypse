@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="Character" format=3 uid="uid://dlx5xjfgt1osv"]
 
-[ext_resource type="Script" uid="uid://ewdyawjgpy5d" path="res://scenes/Stats.gd" id="1_0yfmj"]
-[ext_resource type="Script" uid="uid://dofsgqm1lgkps" path="res://scenes/Character.gd" id="2_1rfi6"]
-[ext_resource type="Texture2D" uid="uid://byjxvimhkvdij" path="res://assets/Player/Nueva carpeta/megumini.png" id="2_vjtqu"]
+[ext_resource type="Script" uid="uid://ewdyawjgpy5d" path="res://scenes/core/Stats.gd" id="1_0yfmj"]
+[ext_resource type="Script" uid="uid://dofsgqm1lgkps" path="res://scenes/core/Character.gd" id="2_1rfi6"]
+[ext_resource type="Texture2D" uid="uid://byjxvimhkvdij" path="res://assets/Player/megu/megumini.png" id="2_vjtqu"]
 [ext_resource type="Resource" uid="uid://dhk2f76ska4k8" path="res://resources/Weapons/MagicWand.tres" id="3_vjtqu"]
 
 [sub_resource type="Resource" id="Resource_rcqid"]

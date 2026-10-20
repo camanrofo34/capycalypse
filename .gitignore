@@ -1,5 +1,61 @@
-# Godot 4+ specific ignores
+# ==============================================================================
+# Godot 4 Gitignore for Capycalypse
+# ==============================================================================
+
+# Godot 4+ internal editor & cache files
 .godot/
-/android/
 .import/
+
+# Imported translations
+*.translation
+
+# Export presets (can contain sensitive keys/certificates)
 export_presets.cfg
+
+# Build and export folders
+export/
+build/
+bin/
+dist/
+
+# Exported binaries & packages
+*.apk
+*.aab
+*.exe
+*.dll
+*.so
+*.dylib
+*.pck
+*.dmg
+*.app
+*.ipa
+*.wasm
+
+# Godot crash logs and temporary files
+*.tmp
+*.tmp.*
+*.bak
+*.log
+*.crash
+
+# Local save files & user runtime configs
+player_data.cfg
+*.save
+
+# Operating System temporary & thumbnail files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Editor and IDE configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.history/

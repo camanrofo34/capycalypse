@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="Character" format=3 uid="uid://dg54xj31nxrhq"]
 
-[ext_resource type="Script" uid="uid://ewdyawjgpy5d" path="res://scenes/Stats.gd" id="1_d1dq5"]
-[ext_resource type="Script" uid="uid://dofsgqm1lgkps" path="res://scenes/Character.gd" id="2_5hu3v"]
-[ext_resource type="Texture2D" uid="uid://dy80717gfv0go" path="res://assets/Player/Nueva carpeta/mikumini.png" id="2_08sqk"]
+[ext_resource type="Script" uid="uid://ewdyawjgpy5d" path="res://scenes/core/Stats.gd" id="1_d1dq5"]
+[ext_resource type="Script" uid="uid://dofsgqm1lgkps" path="res://scenes/core/Character.gd" id="2_5hu3v"]
+[ext_resource type="Texture2D" uid="uid://dy80717gfv0go" path="res://assets/Player/miku/mikumini.png" id="2_08sqk"]
 [ext_resource type="Resource" uid="uid://bdk2b6sjm0emx" path="res://resources/Weapons/Asteroid.tres" id="3_08sqk"]
 
 [sub_resource type="Resource" id="Resource_gdtim"]

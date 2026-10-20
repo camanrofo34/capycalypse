@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Death" format=3 uid="uid://c41cmkppqi6l3"]
 
 [ext_resource type="Texture2D" uid="uid://wboeli71e5s" path="res://assets/Destructibles/tungtung.png" id="1_otbyi"]
-[ext_resource type="Script" uid="uid://du7a8c075ra11" path="res://scenes/Death.gd" id="2_r573m"]
+[ext_resource type="Script" uid="uid://du7a8c075ra11" path="res://scenes/core/Death.gd" id="2_r573m"]
 
 [resource]
 script = ExtResource("2_r573m")

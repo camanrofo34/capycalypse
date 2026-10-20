@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Weapon" format=3 uid="uid://cj8ybmnfem4ck"]
 
-[ext_resource type="Texture2D" uid="uid://d3uugy4yaoist" path="res://assets/Tiles/libro de ventisca helada.png" id="1_si33m"]
-[ext_resource type="PackedScene" uid="uid://c8foq2seou0k8" path="res://scenes/projectile.tscn" id="1_xcv3i"]
-[ext_resource type="Script" uid="uid://b8u52ah1h500f" path="res://scenes/weapon.gd" id="2_si33m"]
-[ext_resource type="Texture2D" uid="uid://c3gylc3nl7uqc" path="res://assets/Tiles/Fuego_fatuo.png" id="4_qptnf"]
-[ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/Upgrade.gd" id="4_uj0j3"]
+[ext_resource type="Texture2D" uid="uid://d3uugy4yaoist" path="res://assets/Icons/Weapons/libro de ventisca helada.png" id="1_si33m"]
+[ext_resource type="PackedScene" uid="uid://c8foq2seou0k8" path="res://scenes/weapons/projectile.tscn" id="1_xcv3i"]
+[ext_resource type="Script" uid="uid://b8u52ah1h500f" path="res://scenes/weapons/weapon.gd" id="2_si33m"]
+[ext_resource type="Texture2D" uid="uid://c3gylc3nl7uqc" path="res://assets/Icons/Weapons/Fuego_fatuo.png" id="4_qptnf"]
+[ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/core/Upgrade.gd" id="4_uj0j3"]
 
 [resource]
 script = ExtResource("2_si33m")

@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="Character" format=3 uid="uid://d2i1kxo01qqc0"]
 
-[ext_resource type="Script" uid="uid://ewdyawjgpy5d" path="res://scenes/Stats.gd" id="1_stats"]
-[ext_resource type="Script" uid="uid://dofsgqm1lgkps" path="res://scenes/Character.gd" id="2_char"]
-[ext_resource type="Texture2D" uid="uid://chpnqvsgfrwk5" path="res://assets/UI/characters/miku_icon.png" id="3_icon"]
+[ext_resource type="Script" uid="uid://ewdyawjgpy5d" path="res://scenes/core/Stats.gd" id="1_stats"]
+[ext_resource type="Script" uid="uid://dofsgqm1lgkps" path="res://scenes/core/Character.gd" id="2_char"]
+[ext_resource type="Texture2D" uid="uid://chpnqvsgfrwk5" path="res://assets/Icons/Characters/miku_icon.png" id="3_icon"]
 [ext_resource type="Texture2D" uid="uid://cq18qwh574umk" path="res://assets/UI/characters/miku_preview.png" id="4_prev"]
 [ext_resource type="Resource" uid="uid://dhk2f76ska4k8" path="res://resources/Weapons/MagicWand.tres" id="5_weapon"]
 [ext_resource type="Texture2D" uid="uid://b88816l204lx2" path="res://assets/Player/front/walk_front.png" id="6_wf"]

@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Chest" format=3 uid="uid://cdmueocvmhc8x"]
 
 [ext_resource type="Texture2D" uid="uid://bgtvg72mgcoum" path="res://assets/Gems/BossChest.png" id="1_gfu8c"]
-[ext_resource type="Script" uid="uid://blacgsy3gqqd7" path="res://scenes/ChestResource.gd" id="2_jllvc"]
+[ext_resource type="Script" uid="uid://blacgsy3gqqd7" path="res://scenes/core/ChestResource.gd" id="2_jllvc"]
 
 [resource]
 script = ExtResource("2_jllvc")

@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="PassiveItem" format=3 uid="uid://c0ugp55ug2tjn"]
 
-[ext_resource type="Script" uid="uid://qt1h0pi4ioca" path="res://scenes/PassiveItem.gd" id="1_n7r47"]
-[ext_resource type="Texture2D" uid="uid://bwbonn1jdrs7a" path="res://assets/PassiveItems/health_potion.png" id="1_wngvr"]
-[ext_resource type="Script" uid="uid://ewdyawjgpy5d" path="res://scenes/Stats.gd" id="3_xqvng"]
+[ext_resource type="Script" uid="uid://qt1h0pi4ioca" path="res://scenes/core/PassiveItem.gd" id="1_n7r47"]
+[ext_resource type="Texture2D" uid="uid://bwbonn1jdrs7a" path="res://assets/Icons/Passives/health_potion.png" id="1_wngvr"]
+[ext_resource type="Script" uid="uid://ewdyawjgpy5d" path="res://scenes/core/Stats.gd" id="3_xqvng"]
 
 [sub_resource type="Resource" id="Resource_ub46o"]
 script = ExtResource("3_xqvng")

@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Enemy" format=3 uid="uid://bj6bhi64vo5gc"]
 
-[ext_resource type="Script" uid="uid://c3cg0pnoy5hsx" path="res://scenes/PickupResource.gd" id="1_mexfs"]
-[ext_resource type="Script" uid="uid://dwasu3l64yd1c" path="res://scenes/EnemyType.gd" id="1_nui31"]
+[ext_resource type="Script" uid="uid://c3cg0pnoy5hsx" path="res://scenes/core/PickupResource.gd" id="1_mexfs"]
+[ext_resource type="Script" uid="uid://dwasu3l64yd1c" path="res://scenes/core/EnemyType.gd" id="1_nui31"]
 [ext_resource type="Resource" uid="uid://t2driafuvxov" path="res://resources/Pickups/Green_gem.tres" id="2_8ktse"]
 [ext_resource type="Texture2D" uid="uid://byuq7wvygi1cv" path="res://assets/Enemies/09.png" id="2_63cbv"]
 

@@ -1,13 +1,13 @@
 [gd_resource type="Resource" script_class="MultiDamagingArea" format=3 uid="uid://ckwq7bpokeswa"]
 
 [ext_resource type="Resource" uid="uid://dfu78qvkjrgi4" path="res://resources/Weapons/LavaPuddle.tres" id="1_c8emf"]
-[ext_resource type="Texture2D" uid="uid://dkxs04ve4qi4v" path="res://assets/Tiles/molotov.png" id="1_v2run"]
+[ext_resource type="Texture2D" uid="uid://dkxs04ve4qi4v" path="res://assets/Icons/Weapons/molotov.png" id="1_v2run"]
 [ext_resource type="Resource" uid="uid://yo4ljqfrbyt2" path="res://resources/Passives/Area.tres" id="2_e27if"]
-[ext_resource type="PackedScene" uid="uid://c8foq2seou0k8" path="res://scenes/projectile.tscn" id="2_vbntr"]
-[ext_resource type="Script" uid="uid://cryabv51m3lrf" path="res://scenes/MultiDamagingArea.gd" id="3_e27if"]
-[ext_resource type="Texture2D" uid="uid://bfev5xo3pmh1u" path="res://assets/Tiles/molotov_attack.png" id="4_c8emf"]
-[ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/Upgrade.gd" id="5_tndrk"]
-[ext_resource type="Script" uid="uid://cdxhvytfkqb0e" path="res://scenes/MultiDamagingAreaUpgrade.gd" id="6_vbntr"]
+[ext_resource type="PackedScene" uid="uid://c8foq2seou0k8" path="res://scenes/weapons/projectile.tscn" id="2_vbntr"]
+[ext_resource type="Script" uid="uid://cryabv51m3lrf" path="res://scenes/weapons/MultiDamagingArea.gd" id="3_e27if"]
+[ext_resource type="Texture2D" uid="uid://bfev5xo3pmh1u" path="res://assets/Weapons/Projectiles/molotov_attack.png" id="4_c8emf"]
+[ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/core/Upgrade.gd" id="5_tndrk"]
+[ext_resource type="Script" uid="uid://cdxhvytfkqb0e" path="res://scenes/weapons/MultiDamagingAreaUpgrade.gd" id="6_vbntr"]
 
 [sub_resource type="Resource" id="Resource_c8fcr"]
 script = ExtResource("6_vbntr")

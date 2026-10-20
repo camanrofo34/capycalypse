@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="Blade" format=3 uid="uid://feha7k7dk24w"]
 
-[ext_resource type="Texture2D" uid="uid://xnl17bsye1bu" path="res://assets/Tiles/shuriken.png" id="1_g3m25"]
-[ext_resource type="PackedScene" uid="uid://c8foq2seou0k8" path="res://scenes/projectile.tscn" id="2_72r72"]
-[ext_resource type="Script" uid="uid://cyy2y5ebda3k2" path="res://scenes/Blade.gd" id="3_4cmer"]
-[ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/Upgrade.gd" id="4_xb2t6"]
+[ext_resource type="Texture2D" uid="uid://xnl17bsye1bu" path="res://assets/Icons/Weapons/shuriken.png" id="1_g3m25"]
+[ext_resource type="PackedScene" uid="uid://c8foq2seou0k8" path="res://scenes/weapons/projectile.tscn" id="2_72r72"]
+[ext_resource type="Script" uid="uid://cyy2y5ebda3k2" path="res://scenes/weapons/Blade.gd" id="3_4cmer"]
+[ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/core/Upgrade.gd" id="4_xb2t6"]
 
 [resource]
 script = ExtResource("3_4cmer")

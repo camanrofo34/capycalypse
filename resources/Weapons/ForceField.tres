@@ -1,12 +1,12 @@
 [gd_resource type="Resource" script_class="DamagingArea" format=3 uid="uid://bdowissa6rffw"]
 
-[ext_resource type="Texture2D" uid="uid://bldstg1ep2mbb" path="res://assets/Tiles/DamagingArea.png" id="1_as682"]
+[ext_resource type="Texture2D" uid="uid://bldstg1ep2mbb" path="res://assets/Weapons/Projectiles/DamagingArea.png" id="1_as682"]
 [ext_resource type="Resource" uid="uid://b0byup5l58gh1" path="res://resources/Weapons/SoulField.tres" id="1_do2sj"]
 [ext_resource type="Resource" uid="uid://cnpino4s8krmh" path="res://resources/Passives/Max_Health.tres" id="2_do2sj"]
-[ext_resource type="PackedScene" uid="uid://c8foq2seou0k8" path="res://scenes/projectile.tscn" id="2_rsn58"]
-[ext_resource type="Script" uid="uid://ciy6phmyv6wqx" path="res://scenes/DamagingArea.gd" id="3_do2sj"]
-[ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/Upgrade.gd" id="4_nhmko"]
-[ext_resource type="Script" uid="uid://dh1exinkxo746" path="res://scenes/DamagingAreaUpdate.gd" id="5_las11"]
+[ext_resource type="PackedScene" uid="uid://c8foq2seou0k8" path="res://scenes/weapons/projectile.tscn" id="2_rsn58"]
+[ext_resource type="Script" uid="uid://ciy6phmyv6wqx" path="res://scenes/weapons/DamagingArea.gd" id="3_do2sj"]
+[ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/core/Upgrade.gd" id="4_nhmko"]
+[ext_resource type="Script" uid="uid://dh1exinkxo746" path="res://scenes/weapons/DamagingAreaUpdate.gd" id="5_las11"]
 
 [sub_resource type="Resource" id="Resource_oprun"]
 script = ExtResource("5_las11")

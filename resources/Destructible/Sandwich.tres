@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Health" format=3 uid="uid://bnlyi4658cfts"]
 
 [ext_resource type="Texture2D" uid="uid://2ovieu4ubxl1" path="res://assets/Destructibles/chansey.png" id="1_4jok8"]
-[ext_resource type="Script" uid="uid://7jv0prv6104" path="res://scenes/Health.gd" id="2_fitfs"]
+[ext_resource type="Script" uid="uid://7jv0prv6104" path="res://scenes/core/Health.gd" id="2_fitfs"]
 
 [resource]
 script = ExtResource("2_fitfs")

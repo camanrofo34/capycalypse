@@ -1,12 +1,12 @@
 [gd_resource type="Resource" script_class="Blade" format=3 uid="uid://cwau3ph2vfg35"]
 
-[ext_resource type="Texture2D" uid="uid://xnl17bsye1bu" path="res://assets/Tiles/shuriken.png" id="1_42xhv"]
+[ext_resource type="Texture2D" uid="uid://xnl17bsye1bu" path="res://assets/Icons/Weapons/shuriken.png" id="1_42xhv"]
 [ext_resource type="Resource" uid="uid://feha7k7dk24w" path="res://resources/Weapons/DemonShuriken.tres" id="1_f5j8n"]
 [ext_resource type="Resource" uid="uid://mkdfjgid71wf" path="res://resources/Passives/Luck.tres" id="2_jgnsh"]
-[ext_resource type="PackedScene" uid="uid://c8foq2seou0k8" path="res://scenes/projectile.tscn" id="2_tdnc0"]
-[ext_resource type="Script" uid="uid://cyy2y5ebda3k2" path="res://scenes/Blade.gd" id="3_jgnsh"]
-[ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/Upgrade.gd" id="4_f5j8n"]
-[ext_resource type="Script" uid="uid://smofnp82q7bn" path="res://scenes/BladeUpgrade.gd" id="5_tdnc0"]
+[ext_resource type="PackedScene" uid="uid://c8foq2seou0k8" path="res://scenes/weapons/projectile.tscn" id="2_tdnc0"]
+[ext_resource type="Script" uid="uid://cyy2y5ebda3k2" path="res://scenes/weapons/Blade.gd" id="3_jgnsh"]
+[ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/core/Upgrade.gd" id="4_f5j8n"]
+[ext_resource type="Script" uid="uid://smofnp82q7bn" path="res://scenes/weapons/BladeUpgrade.gd" id="5_tdnc0"]
 
 [sub_resource type="Resource" id="Resource_fulsm"]
 script = ExtResource("5_tdnc0")

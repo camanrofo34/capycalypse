@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="PassiveItem" format=3 uid="uid://cd8ah5rl7ql1j"]
 
-[ext_resource type="Script" uid="uid://qt1h0pi4ioca" path="res://scenes/PassiveItem.gd" id="1_cwgyt"]
-[ext_resource type="Texture2D" uid="uid://bv5rr04q04qoe" path="res://assets/PassiveItems/might.png" id="2_cwgyt"]
-[ext_resource type="Script" uid="uid://ewdyawjgpy5d" path="res://scenes/Stats.gd" id="3_q54xu"]
+[ext_resource type="Script" uid="uid://qt1h0pi4ioca" path="res://scenes/core/PassiveItem.gd" id="1_cwgyt"]
+[ext_resource type="Texture2D" uid="uid://bv5rr04q04qoe" path="res://assets/Icons/Passives/might.png" id="2_cwgyt"]
+[ext_resource type="Script" uid="uid://ewdyawjgpy5d" path="res://scenes/core/Stats.gd" id="3_q54xu"]
 
 [sub_resource type="Resource" id="Resource_ed4v4"]
 script = ExtResource("3_q54xu")

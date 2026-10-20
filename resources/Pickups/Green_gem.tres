@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Gem" format=3 uid="uid://t2driafuvxov"]
 
 [ext_resource type="Texture2D" uid="uid://bk31x6k7g502" path="res://assets/Gems/spr_coin_strip4.png" id="1_8sr0c"]
-[ext_resource type="Script" uid="uid://dg0xyl4a0geoe" path="res://scenes/Gem.gd" id="2_2l3gp"]
+[ext_resource type="Script" uid="uid://dg0xyl4a0geoe" path="res://scenes/core/Gem.gd" id="2_2l3gp"]
 
 [resource]
 script = ExtResource("2_2l3gp")

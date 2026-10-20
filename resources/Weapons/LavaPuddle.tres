@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="MultiDamagingArea" format=3 uid="uid://dfu78qvkjrgi4"]
 
-[ext_resource type="Texture2D" uid="uid://ecan7o2co2yc" path="res://assets/Tiles/lava.png" id="1_wx4b3"]
-[ext_resource type="PackedScene" uid="uid://c8foq2seou0k8" path="res://scenes/projectile.tscn" id="2_ei1aa"]
-[ext_resource type="Script" uid="uid://cryabv51m3lrf" path="res://scenes/MultiDamagingArea.gd" id="3_3218p"]
-[ext_resource type="Texture2D" uid="uid://3n00vpaandpb" path="res://assets/Tiles/lava_attack.png" id="4_fc6cq"]
-[ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/Upgrade.gd" id="5_46leo"]
+[ext_resource type="Texture2D" uid="uid://ecan7o2co2yc" path="res://assets/Icons/Weapons/lava.png" id="1_wx4b3"]
+[ext_resource type="PackedScene" uid="uid://c8foq2seou0k8" path="res://scenes/weapons/projectile.tscn" id="2_ei1aa"]
+[ext_resource type="Script" uid="uid://cryabv51m3lrf" path="res://scenes/weapons/MultiDamagingArea.gd" id="3_3218p"]
+[ext_resource type="Texture2D" uid="uid://3n00vpaandpb" path="res://assets/Weapons/Projectiles/lava_attack.png" id="4_fc6cq"]
+[ext_resource type="Script" uid="uid://dctw2lhdoaop4" path="res://scenes/core/Upgrade.gd" id="5_46leo"]
 
 [resource]
 script = ExtResource("3_3218p")

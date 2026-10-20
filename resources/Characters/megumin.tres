@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="Character" format=3 uid="uid://dsownvyp6vlsg"]
 
-[ext_resource type="Script" uid="uid://ewdyawjgpy5d" path="res://scenes/Stats.gd" id="1_stats"]
-[ext_resource type="Script" uid="uid://dofsgqm1lgkps" path="res://scenes/Character.gd" id="2_char"]
-[ext_resource type="Texture2D" uid="uid://cjqp3m77oi44i" path="res://assets/UI/characters/megu_icon.png" id="3_icon"]
+[ext_resource type="Script" uid="uid://ewdyawjgpy5d" path="res://scenes/core/Stats.gd" id="1_stats"]
+[ext_resource type="Script" uid="uid://dofsgqm1lgkps" path="res://scenes/core/Character.gd" id="2_char"]
+[ext_resource type="Texture2D" uid="uid://cjqp3m77oi44i" path="res://assets/Icons/Characters/megu_icon.png" id="3_icon"]
 [ext_resource type="Texture2D" uid="uid://dwtn6ndgl8nu2" path="res://assets/UI/characters/megu_preview.png" id="4_prev"]
 [ext_resource type="Resource" uid="uid://bdk2b6sjm0emx" path="res://resources/Weapons/Asteroid.tres" id="5_weapon"]
 [ext_resource type="Texture2D" uid="uid://dlk1ayqxwmkh5" path="res://assets/Player/megu/walk_front.png" id="6_wf"]
